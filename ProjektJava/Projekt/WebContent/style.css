@@ -1,0 +1,200 @@
+input {
+	color:blue;
+	font-size:15px;
+}
+
+.permbajtja > h1{
+	font-size:25px;
+color:blue;
+	
+}
+nav{
+	margin-top:50px;
+	margin-left:50px;
+	margin-bottom:50px;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	border:2px solid RoyalBlue;
+	text-align:center;
+	width:15em;
+	background-color:RoyalBlue;
+	
+	
+}
+nav ul{
+	display:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav:hover ul {display:block
+}
+nav ul li {
+	border-top:2px solid RoyalBlue;
+	background-color :white;
+	width:15em;
+	color:black;
+}
+nav ul li:hover{
+	background-color : PowderBlue;
+}
+.logimi{
+	position: absolute;  
+	background-color : PowderBlue;
+	top:130px;
+	right: 150px;
+  width: 400px;
+  height: 150px;
+  
+  box-shadow: -5px -5px 13px blue;
+	
+}
+label{
+	
+	
+	clear: left;
+	font-size:20px;
+	color:white;
+background-color:blue;
+
+}
+.button{
+	position: absolute; 
+	right: 200px;
+	font-size: 20px;
+	margin-right:-50px;
+  
+  color: blue;
+  font-size:bold;
+  background-color: white;
+  border-radius: 50px;
+  
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+.button:hover {
+  background: #00b2b2;
+  box-shadow: 0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2,
+    0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2;
+}
+.button1{
+	margin-top:50px;
+	right: 150px;
+	margin-bottom:10px;
+	font-size: 20px;
+	margin-right:-50px;
+  
+  color: blue;
+  font-size:bold;
+  background-color: white;
+  border-radius: 50px;
+  
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+.button1:hover {
+  background: #00b2b2;
+  box-shadow: 0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2,
+    0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2;
+}
+.button2{
+	margin-top:20px;
+	right: 150px;
+	margin-bottom:10px;
+	font-size: 20px;
+	margin-right:-50px;
+  
+  color: blue;
+  font-size:bold;
+  background-color: white;
+  border-radius: 50px;
+  
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+.button2:hover {
+  background: #00b2b2;
+  box-shadow: 0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2,
+    0 5px 50px 0 #00b2b2 inset, 0 5px 50px 0 #00b2b2;
+}
+body{
+	background-color:#00ffff;
+}
+.DetAdminit{
+	
+	margin-left:300px;
+	
+}
+.insert{
+	
+
+	width: 400px;
+  position: absolute;
+ top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  
+}
+a{
+	font-size:20px;
+	 text-decoration: none;
+	color:blue;
+	font-size:bold;
+	
+}
+.select{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	box-sizing: border-box;
+	height:100vh;
+	display:grid;
+	place-items:center;
+	
+}
+table{
+	margin-top:50px;
+	width:100%;
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+}
+table, td, th {
+	padding:20px;
+	border: 1px solid blue;
+	border-collapse:collapse;
+	text-align:center;
+	
+}
+td{
+	font-size:18px;
+}
+th{
+	background-color: blue;
+	color:white;
+	cursor: pointer;
+}
+tr:nth-child(odd){
+	background-color:lightblue;
+	
+}
+tr:nth-child(odd):hover{
+	background-color:dodgerblue;
+	color:white;
+	
+	
+}
+tr:nth-child(even):hover{
+	background-color:gray;
+	color:white;
+	
+	
+}
+tr:nth-child(even){
+	background-color:white;
+	
+}
